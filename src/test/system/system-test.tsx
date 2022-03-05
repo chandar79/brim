@@ -71,6 +71,7 @@ async function bootBrim(name: string, args: Partial<Args> = {}) {
   }
 }
 
+jest.setTimeout(20_000)
 export class SystemTest {
   store: Store
   plugins: PluginManager
